@@ -3,6 +3,7 @@ package org.example;
 import org.example.chapter2.ChapterTwo;
 import org.example.chapter3.ChapterThree;
 import org.example.chapter4.ChapterFour;
+import org.example.chapter5.ChapterFive;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,5 +24,7 @@ public class Main {
         ChapterFour.divideByModule();
         System.out.println("--------------------------------------------");
         ChapterFour.opEquals();
+        System.out.println("--------------------------------------------");
+        ChapterFive.nestingSwitch();
     }
 }
