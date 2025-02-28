@@ -26,5 +26,9 @@ public class Main {
         ChapterFour.opEquals();
         System.out.println("--------------------------------------------");
         ChapterFive.nestingSwitch();
+        System.out.println("--------------------------------------------");
+        ChapterFive.forEach();
+        System.out.println("--------------------------------------------");
+        ChapterFive.forEach2();
     }
 }
