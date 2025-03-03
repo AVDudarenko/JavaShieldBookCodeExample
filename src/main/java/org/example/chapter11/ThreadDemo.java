@@ -2,7 +2,7 @@ package org.example.chapter11;
 
 public class ThreadDemo {
     public static void main(String[] args) {
-        NewThread newThread = new NewThread();
+        NewThread newThread = new NewThread("Main thread");
         newThread.thread.start();
         try {
             for (int i = 5; i > 0; i--) {
