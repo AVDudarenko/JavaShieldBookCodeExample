@@ -10,6 +10,12 @@ public class NewThread implements Runnable {
         System.out.println("Child thread: " + thread);
     }
 
+    public static NewThread createAndStart(String threadName) {
+        NewThread newThread = new NewThread(threadName);
+        newThread.thread.start();
+        return newThread;
+    }
+
     @Override
     public void run() {
         try {
